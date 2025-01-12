@@ -62,16 +62,6 @@
 
 ---
 
-## 🎨 Screenshots & Animations
-
-### 📸 Portfolio Overview
-![Portfolio GIF](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
-
-### 💡 Task Demonstrations
-- **Exercise 1 Task 1:** ![Task 1 Demo](https://media.giphy.com/media/1xVdm1YJYwQ0o/giphy.gif)
-- **Exercise 2 Task 2:** ![Task 2 Demo](https://media.giphy.com/media/l41m6pZDk9L2y4Foc/giphy.gif)
-
----
 
 ## 📬 Contact Me
 
