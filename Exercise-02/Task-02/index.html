@@ -1,0 +1,124 @@
+<!-- 2. Animation  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>23BAI1214 Web Programming Lab - Exercise 2</title>
+<style>
+body{font-family:'Arial',sans-serif;background:linear-gradient(45deg,#fdd0d0,#f1d6d6);margin:0;padding:20px;min-height:100vh;overflow-x:hidden}
+.container{max-width:1200px;margin:auto}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-15px)}}
+@keyframes wave{0%,100%{transform:translateY(0)}25%{transform:translateY(-15px)}50%{transform:translateY(0)}75%{transform:translateY(15px)}}
+.wave-text{display:inline-block}
+.wave-text span{display:inline-block;animation:wave 2s infinite}
+@keyframes spotlight{0%,100%{background-position:-200% center}50%{background-position:200% center}}
+.spotlight-text{background:linear-gradient(90deg,#000,#fff,#000);background-size:200% auto;color:#000;background-clip:text;-webkit-background-clip:text;animation:spotlight 3s linear infinite;font-size:24px;font-weight:bold;margin:20px 0}
+.image-gallery{display:flex;justify-content:space-around;flex-wrap:wrap;gap:30px;margin:40px 0}
+.image-container{position:relative;width:200px;height:200px;overflow:hidden;border-radius:10px;box-shadow:0 5px 15px rgba(0,0,0,0.3)}
+.img-1{animation:moveLeft 3s infinite}
+.img-2{animation:moveUpDown 2s infinite}
+.img-3{animation:rotate 4s infinite}
+.img-4{animation:pulse 3s infinite}
+.animated-image{width:100%;height:100%;object-fit:cover}
+.header{text-align:center;padding:20px;margin-bottom:30px}
+.rainbow-text{background-image:linear-gradient(90deg,#ff0000,#ff7f00,#ffff00,#00ff00,#0000ff,#4b0082,#8f00ff);background-size:200% auto;color:#000;background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:rainbow 5s linear infinite;font-size:36px;font-weight:bold}
+@keyframes rainbow{to{background-position:200% center}}
+.student-info{font-size:24px;margin:20px 0}
+.blink{animation:blink 1s infinite}
+@keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <marquee behavior="alternate" scrollamount="10" direction="right">
+            <h1 class="rainbow-text">WEB PROGRAMMING LAB</h1>
+        </marquee>
+        
+        <marquee behavior="slide" direction="down" scrollamount="5">
+            <div class="wave-text">EXERCISE 2</div>
+        </marquee>
+    </div>
+
+    <marquee behavior="alternate" scrollamount="3" direction="up" height="100">
+        <div class="student-info">
+            <span class="blink">Divyanshu Patel</span>
+        </div>
+    </marquee>
+
+    <marquee behavior="scroll" scrollamount="4" direction="left">
+        <span class="spotlight-text">23BAI1214</span>
+    </marquee>
+
+    <div class="image-gallery">
+        <div class="image-container">
+            <marquee behavior="alternate" direction="right">
+                <img src="coffee1.jpg" alt="Moving Left-Right" class="animated-image img-1">
+            </marquee>
+        </div>
+        <div class="image-container">
+            <marquee behavior="scroll" direction="up" height="200">
+                <img src="coffee2.jpg" alt="Moving Up-Down" class="animated-image img-2">
+            </marquee>
+        </div>
+        <div class="image-container">
+            <marquee behavior="alternate" direction="down" height="200">
+                <img src="coffee3.jpg" alt="Rotating" class="animated-image img-3">
+            </marquee>
+        </div>
+        <div class="image-container">
+            <marquee behavior="slide" direction="left">
+                <img src="coffee4.jpg" alt="Pulsing" class="animated-image img-4">
+            </marquee>
+        </div>
+    </div>
+
+    <marquee behavior="alternate" direction="right" scrollamount="5">
+        <span style="color:red;font-size:24px">★ HTML ★</span>
+    </marquee>
+
+    <marquee behavior="scroll" direction="left" scrollamount="8">
+        <span style="color:blue;font-size:24px">⚡ CSS ⚡</span>
+    </marquee>
+
+    <marquee behavior="alternate" direction="up" height="50" scrollamount="3">
+        <span style="color:green;font-size:24px">☆ Animation ☆</span>
+    </marquee>
+
+    <table width="100%" border="1">
+        <tr>
+            <td align="center">
+                <marquee behavior="alternate" direction="right">
+                    <span style="color:purple">Web Programming</span>
+                </marquee>
+            </td>
+            <td align="center">
+                <marquee behavior="alternate" direction="left">
+                    <span style="color:orange">Laboratory</span>
+                </marquee>
+            </td>
+        </tr>
+    </table>
+
+    <div style="margin:20px 0">
+        <marquee behavior="scroll" direction="left" scrollamount="2">
+            <span style="letter-spacing:5px">DIVYANSHU PATEL - 23BAI1214</span>
+        </marquee>
+        <marquee behavior="scroll" direction="right" scrollamount="2">
+            <span style="letter-spacing:5px">WEB PROGRAMMING LAB - EXERCISE 2</span>
+        </marquee>
+    </div>
+
+    <div style="text-align:center">
+        <marquee behavior="alternate" width="200" direction="right">
+            <span style="font-size:20px">→</span>
+        </marquee>
+        <marquee behavior="alternate" width="200" direction="left">
+            <span style="font-size:20px">←</span>
+        </marquee>
+    </div>
+</div>
+</body>
+</html>

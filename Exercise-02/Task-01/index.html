@@ -1,0 +1,188 @@
+<!-- 1. Coffee Shop -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>23BAI1214 Coffee Shop</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #6f4f37;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 28px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            margin: 15px;
+            width: 220px;
+            padding: 20px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            transform: scale(1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            transition: opacity 0.3s ease;
+        }
+
+        .card img:hover {
+            opacity: 0.9;
+        }
+
+        .card h3 {
+            text-align: center;
+            color: #6f4f37;
+            font-size: 22px;
+            margin-top: 10px;
+        }
+
+        .card p {
+            text-align: center;
+            color: #777;
+            font-size: 18px;
+        }
+
+        .card .description {
+            text-align: center;
+            color: #555;
+            font-size: 14px;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        .card button {
+            background-color: #6f4f37;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .card button:hover {
+            background-color: #5e4028;
+        }
+
+        .footer {
+            background-color: #6f4f37;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+
+        .footer p {
+            font-size: 16px;
+        }
+
+        .footer .name {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .footer .reg {
+            font-size: 14px;
+        }
+
+        .footer .name, .footer .reg {
+            margin-top: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    Welcome to the Latte Love Coffee Shop
+</header>
+
+<div class="container">
+    <div class="card">
+        <img src="coffee1.jpg" alt="Espresso">
+        <h3>Espresso</h3>
+        <p>$3.00</p>
+        <p class="description">Strong, bold, and rich in flavor. A true coffee lover's choice!</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="coffee2.jpg" alt="Cappuccino">
+        <h3>Cappuccino</h3>
+        <p>$4.00</p>
+        <p class="description">Smooth and creamy with a perfect balance of coffee and milk froth.</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="coffee3.jpg" alt="Latte">
+        <h3>Latte</h3>
+        <p>$4.50</p>
+        <p class="description">A creamy and milky coffee experience, perfect for those who enjoy a gentle brew.</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="coffee4.jpg" alt="Americano">
+        <h3>Americano</h3>
+        <p>$3.50</p>
+        <p class="description">A rich and full-bodied coffee made with espresso and hot water.</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="coffee5.jpg" alt="Mocha">
+        <h3>Mocha</h3>
+        <p>$4.75</p>
+        <p class="description">A sweet and indulgent treat made with espresso, chocolate, and steamed milk.</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="coffee6.jpg" alt="Macchiato">
+        <h3>Macchiato</h3>
+        <p>$3.25</p>
+        <p class="description">Espresso with a small amount of steamed milk, creating a delightful contrast of strong and smooth.</p>
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+<div class="footer">
+    <p class="name">Divyanshu Patel</p>
+    <p class="reg">23BAI1214</p>
+</div>
+
+</body>
+</html>
