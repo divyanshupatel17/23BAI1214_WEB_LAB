@@ -12,7 +12,7 @@
 
 ---
 
-## 🚀 Live Portfolio
+## 🚀 Live Portfolio - WEB PROG EXERCISES
 
 🔗 **[Portfolio Website](https://23bai1214-divyanshu-web-lab-portfolio.netlify.app/)**  
 
