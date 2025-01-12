@@ -5,7 +5,7 @@
 - **Name:** Divyanshu Patel  
 - **Reg. No:** 23BAI1214  
 - **Course:** Web Programming Lab  
-- **Batch:** L11 + L12 + L19 + L20  
+- **Slot:** L11 + L12 + L19 + L20  
 - **Instructor:** PROF. DR. ASHOKA RAJAN R  
 - **University:** VIT University  
 - **Email:** [divyanshu.patel2023@vitstudent.ac](mailto:divyanshu.patel2023@vitstudent.ac)
