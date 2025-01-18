@@ -24,29 +24,25 @@
 
 ### ✨ **Exercise 1**
 
-| [![Task 1](https://img.shields.io/badge/Live-Demo-blue?logo=netlify)](https://23bai1214-divyanshu-exercise-1-t-1.netlify.app/) | [![Task 2](https://img.shields.io/badge/Live-Demo-blue?logo=netlify)](https://23bai1214-divyanshu-exercise-1-t-2.netlify.app/) | [![Task 3](https://img.shields.io/badge/Live-Demo-blue?logo=netlify)](https://23bai1214-divyanshu-exercise-1-t-3.netlify.app/) |
-|:---:|:---:|:---:|
-| **Leave Letter** | **TABLE LAYOUT** | **CHESSBOARD** |
-
----
+| [Leave Letter](https://23bai1214-divyanshu-exercise-1-t-1.netlify.app/) | [Table Layout](https://23bai1214-divyanshu-exercise-1-t-2.netlify.app/) | [Chessboard](https://23bai1214-divyanshu-exercise-1-t-3.netlify.app/) |
+|:--:|:--:|:--:|
+| **Task 1**<br>Leave Letter | **Task 2**<br>Table Layout | **Task 3**<br>Chessboard |
 
 ### ✨ **Exercise 2**
 
-| [![Task 1](https://img.shields.io/badge/Live-Demo-blue?logo=netlify)](https://23bai1214-divyanshu-exercise-2-t-1.netlify.app/) | [![Task 2](https://img.shields.io/badge/Live-Demo-blue?logo=netlify)](https://23bai1214-divyanshu-exercise-2-t-2.netlify.app/) | [![Task 3](https://img.shields.io/badge/Live-Demo-blue?logo=netlify)](https://23bai1214-divyanshu-exercise-2-t-3.netlify.app/) |
-|:---:|:---:|:---:|
-| **THE COFFEE SHOP** | **ANIMATIONS** | **JOB REG. FORM** |
-
----
+| [The Coffee Shop](https://23bai1214-divyanshu-exercise-2-t-1.netlify.app/) | [Animations](https://23bai1214-divyanshu-exercise-2-t-2.netlify.app/) | [Job Registration Form](https://23bai1214-divyanshu-exercise-2-t-3.netlify.app/) |
+|:--:|:--:|:--:|
+| **Task 1**<br>The Coffee Shop | **Task 2**<br>Animations | **Task 3**<br>Job Registration Form |
 
 ### ✨ **Exercise 3**
 
-| [![Task 1](https://img.shields.io/badge/Live-Demo-blue?logo=netlify)](https://23bai1214-divyanshu-exercise-3-t-1.netlify.app/) | [![Task 2](https://img.shields.io/badge/Live-Demo-blue?logo=netlify)](https://23bai1214-divyanshu-exercise-3-t-2.netlify.app/) | [![Task 3](https://img.shields.io/badge/Live-Demo-blue?logo=netlify)](https://23bai1214-divyanshu-exercise-3-t-3.netlify.app/) | [![Task 4](https://img.shields.io/badge/Live-Demo-blue?logo=netlify)](https://23bai1214-divyanshu-exercise-3-t-4.netlify.app/) |
-|:---:|:---:|:---:|:---:|
-| **Stacked Panel** | **Side-by-Side Panels** | **Login Page** | **Nav Bar – Horizontal** |
+| [Stacked Panel](https://23bai1214-divyanshu-exercise-3-t-1.netlify.app/) | [Side-by-Side Panels](https://23bai1214-divyanshu-exercise-3-t-2.netlify.app/) | [Login Page](https://23bai1214-divyanshu-exercise-3-t-3.netlify.app/) |
+|:--:|:--:|:--:|
+| **Task 1**<br>Stacked Panel: A CSS Layout Exploration | **Task 2**<br>Side-by-Side Panels: A CSS Layout Exploration | **Task 3**<br>Login Page |
 
-| [![Task 5](https://img.shields.io/badge/Live-Demo-blue?logo=netlify)](https://23bai1214-divyanshu-exercise-3-t-5.netlify.app/) | [![Task 6](https://img.shields.io/badge/Live-Demo-blue?logo=netlify)](https://23bai1214-divyanshu-exercise-3-t-6.netlify.app/) |
-|:---:|:---:|
-| **Nav Bar – Vertical** | **Display ACER and Projector Info.** |
+| [Horizontal NavBar](https://23bai1214-divyanshu-exercise-3-t-4.netlify.app/) | [Vertical NavBar](https://23bai1214-divyanshu-exercise-3-t-5.netlify.app/) | [ACER & Projector Info](https://23bai1214-divyanshu-exercise-3-t-6.netlify.app/) |
+|:--:|:--:|:--:|
+| **Task 4**<br>Navigation Bar – Horizontal | **Task 5**<br>Navigation Bar – Vertical | **Task 6**<br>Display ACER and Projector Info |
 
 ---
 
@@ -54,11 +50,11 @@
 
 - **Frontend:** HTML, CSS, JavaScript  
 - **Deployment:** Netlify  
-- **Version Control:** GitHub
+- **Version Control:** GitHub  
 
 ---
 
-## 📨 Contact Me
+## 📩 Contact Me
 
 - 📧 **Email:** [divyanshu.patel2023@vitstudent.ac](mailto:divyanshu.patel2023@vitstudent.ac)  
 - 🌐 **Portfolio:** [Live Site](https://23bai1214-divyanshu-web-lab-portfolio.netlify.app/)  
@@ -69,7 +65,7 @@
 ## 📌 Acknowledgements
 
 - Guided by **PROF. DR. ASHOKA RAJAN R**  
-- Special thanks to **VIT University** for providing this learning platform.
+- Special thanks to **VIT University** for providing this learning platform.  
 
 ---
 
@@ -77,5 +73,5 @@
 
 ---
 
-⭐ **If you like this project, don't forget to give it a star!** ⭐
+🌟 **If you like this project, don't forget to give it a star!** 🌟
 
