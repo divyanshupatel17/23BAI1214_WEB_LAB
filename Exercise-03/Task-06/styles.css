@@ -1,0 +1,87 @@
+/* styles.css  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.projector-screen {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.logo {
+    color: white;
+    font-size: 72px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.bottom-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    right: 40px;
+}
+
+.qr-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.qr-code {
+    width: 80px;  
+    height: 80px; 
+    background-color: white;
+    padding: 5px;
+}
+
+.qr-text {
+    line-height: 1.6;
+    font-weight: 300;
+    font-size: 24px; 
+}
+
+.signal-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hdmi-icon {
+    width: 40px; 
+    height: auto;
+    filter: brightness(0) invert(1);
+}
+
+.signal-text {
+    line-height: 1.6;
+    text-align: right;
+    font-weight: 300;
+    font-size: 24px;
+}
