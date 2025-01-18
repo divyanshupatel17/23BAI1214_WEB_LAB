@@ -1,0 +1,22 @@
+/* styles.css  */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.side-panel {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+}
+
+.panel {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
