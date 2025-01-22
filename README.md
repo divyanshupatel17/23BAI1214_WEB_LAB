@@ -8,7 +8,7 @@
 - **Slot:** L11 + L12 + L19 + L20  
 - **Instructor:** PROF. DR. ASHOKA RAJAN R  
 - **University:** VIT University  
-- **Email:** [divyanshu.patel2023@vitstudent.ac](mailto:divyanshu.patel2023@vitstudent.ac)
+- **Email:** [divyanshu.patel2023@vitstudent.ac](mailto:divyanshu.patel2023@vitstudent.ac.in)
 
 ---
 
