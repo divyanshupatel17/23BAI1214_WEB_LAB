@@ -56,7 +56,7 @@
 
 ## 📩 Contact Me
 
-- 📧 **Email:** [divyanshu.patel2023@vitstudent.ac](mailto:divyanshu.patel2023@vitstudent.ac)  
+- 📧 **Email:** [divyanshu.patel2023@vitstudent.ac](mailto:divyanshu.patel2023@vitstudent.ac.in)  
 - 🌐 **Portfolio:** [Live Site](https://23bai1214-divyanshu-web-lab-portfolio.netlify.app/)  
 - 🏧 **Institution:** VIT University  
 
