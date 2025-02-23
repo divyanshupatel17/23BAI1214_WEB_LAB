@@ -45,52 +45,52 @@
 
 | Task | Link | Demo |
 |------|------|------|
-| Leave Letter Application | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-01/task-01) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-1-t-1.netlify.app/) |
-| Table Layout Implementation | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-01/task-2) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-1-t-2.netlify.app/) |
-| Interactive Chessboard | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-01/task-3) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-1-t-3.netlify.app/) |
+| Leave Letter Application | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-01/Task-01) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-1-t-1.netlify.app/) |
+| Table Layout Implementation | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-01/Task-02) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-1-t-2.netlify.app/) |
+| Interactive Chessboard | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-01/Task-03) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-1-t-3.netlify.app/) |
 
 ### ☕ Exercise 2: Advanced Styling & Forms
 **Submission Date:** January 12, 2025
 
 | Task | Link | Demo |
 |------|------|------|
-| The Coffee Shop Website | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-02/task-1) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-2-t-1.netlify.app/) |
-| CSS Animations Showcase | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-02/task-2) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-2-t-2.netlify.app/) |
-| Job Registration Portal | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-02/task-3) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-2-t-3.netlify.app/) |
+| The Coffee Shop Website | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-02/Task-01) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-2-t-1.netlify.app/) |
+| CSS Animations Showcase | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-02/Task-02) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-2-t-2.netlify.app/) |
+| Job Registration Portal | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-02/Task-03) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-2-t-3.netlify.app/) |
 
 ### 🎯 Exercise 3: Advanced CSS Layouts
 **Submission Date:** January 18, 2025
 
 | Task | Link | Demo |
 |------|------|------|
-| Stacked Panel Layout | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-03/task-1) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-3-t-1.netlify.app/) |
-| Side-by-Side Panels | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-03/task-2) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-3-t-2.netlify.app/) |
-| Modern Login Interface | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-03/task-3) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-3-t-3.netlify.app/) |
-| Horizontal Navigation | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-03/task-4) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-3-t-4.netlify.app/) |
-| Vertical Navigation | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-03/task-5) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-3-t-5.netlify.app/) |
-| Product Information Display | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-03/task-6) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-3-t-6.netlify.app/) |
+| Stacked Panel Layout | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-03/Task-01) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-3-t-1.netlify.app/) |
+| Side-by-Side Panels | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-03/Task-02) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-3-t-2.netlify.app/) |
+| Modern Login Interface | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-03/Task-03) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-3-t-3.netlify.app/) |
+| Horizontal Navigation | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-03/Task-04) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-3-t-4.netlify.app/) |
+| Vertical Navigation | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-03/Task-05) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-3-t-5.netlify.app/) |
+| Product Information Display | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-03/Task-06) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-3-t-6.netlify.app/) |
 
 ### 🎬 Exercise 4: Advanced Animations
 **Submission Date:** February 9, 2025
 
 | Task | Link | Demo |
 |------|------|------|
-| W3Schools Animated Box | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-04/task-1) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-4-t-1.netlify.app/) |
-| Square Path Animation | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-04/task-2) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-4-t-2.netlify.app/) |
-| Dynamic Star Animation | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-04/task-3) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-4-t-3.netlify.app/) |
-| Responsive Web Design | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-04/task-4) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-4-t-4.netlify.app/) |
+| W3Schools Animated Box | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-04/Task-01) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-4-t-1.netlify.app/) |
+| Square Path Animation | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-04/Task-02) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-4-t-2.netlify.app/) |
+| Dynamic Star Animation | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-04/Task-03) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-4-t-3.netlify.app/) |
+| Responsive Web Design | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-04/Task-04) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-4-t-4.netlify.app/) |
 
 ### 🎮 Exercise 5: JavaScript Applications
 **Submission Date:** February 23, 2025
 
 | Task | Link | Demo |
 |------|------|------|
-| Interactive Traffic Light | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-05/task-1) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-5-t-1.netlify.app/) |
-| Random Quote Generator | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-05/task-2) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-5-t-2.netlify.app/) |
-| To-Do List Application | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-05/task-3) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-5-t-3.netlify.app/) |
-| Interactive Shape Drawing | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-05/task-4) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-5-t-4.netlify.app/) |
-| Number Guessing Game | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-05/task-5) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-5-t-5.netlify.app/) |
-| Emoji Generator | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-05/task-6) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-5-t-6.netlify.app/) |
+| Interactive Traffic Light | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-05/Task-01) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-5-t-1.netlify.app/) |
+| Random Quote Generator | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-05/Task-02) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-5-t-2.netlify.app/) |
+| To-Do List Application | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-05/Task-03) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-5-t-3.netlify.app/) |
+| Interactive Shape Drawing | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-05/Task-04) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-5-t-4.netlify.app/) |
+| Number Guessing Game | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-05/Task-05) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-5-t-5.netlify.app/) |
+| Emoji Generator | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-05/Task-06) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-5-t-6.netlify.app/) |
 
 ## 🛠️ Technology Stack
 - **Frontend Development:**
