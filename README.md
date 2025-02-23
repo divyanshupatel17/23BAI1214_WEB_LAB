@@ -45,7 +45,7 @@
 
 | Task | Link | Demo |
 |------|------|------|
-| Leave Letter Application | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-01/task-1) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-1-t-1.netlify.app/) |
+| Leave Letter Application | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-01/task-01) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-1-t-1.netlify.app/) |
 | Table Layout Implementation | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-01/task-2) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-1-t-2.netlify.app/) |
 | Interactive Chessboard | [View Code](https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/tree/main/Exercise-01/task-3) | [<kbd> Live Demo ▶️ </kbd>](https://23bai1214-divyanshu-exercise-1-t-3.netlify.app/) |
 
