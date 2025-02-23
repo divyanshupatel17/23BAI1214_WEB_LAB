@@ -1,0 +1,168 @@
+<!-- 2. Random Quote -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <style>
+        :root {
+            --primary: #2a2d4c;
+            --text: #333;
+            --accent: #6366f1;
+            --background-start: #667eea;
+            --background-end: #764ba2;
+            --card: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            font-family: system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, var(--background-start), var(--background-end));
+            padding: 1rem;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            padding: 2rem;
+            background: var(--card);
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .quote-box {
+            position: relative;
+            padding: 1rem;
+        }
+
+        .quote-text {
+            font-size: 1.5rem;
+            color: var(--primary);
+            line-height: 1.5;
+            margin-bottom: 1rem;
+            position: relative;
+            padding: 0 1rem;
+            transition: opacity 0.3s ease;
+        }
+
+        .quote-text::before,
+        .quote-text::after {
+            content: '"';
+            font-size: 4rem;
+            position: absolute;
+            opacity: 0.1;
+            font-family: Georgia, serif;
+        }
+
+        .quote-text::before {
+            top: -1rem;
+            left: -1rem;
+        }
+
+        .quote-text::after {
+            bottom: -2rem;
+            right: -1rem;
+        }
+
+        .quote-author {
+            font-size: 1.1rem;
+            color: var(--accent);
+            text-align: right;
+            font-style: italic;
+            transition: opacity 0.3s ease;
+        }
+
+        .button {
+            background-color: var(--accent);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            font-weight: 500;
+            align-self: center;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+
+        .button:active {
+            transform: translateY(0);
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 1.5rem;
+            }
+            
+            .quote-text {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="quote-box">
+            <p class="quote-text" id="quote"></p>
+            <p class="quote-author" id="author"></p>
+        </div>
+        <button class="button" id="new-quote">New Quote</button>
+    </div>
+
+    <script>
+        const quotes = [
+            { text: "The only way to do great work is to love what you do.", author: "Steve Jobs" },
+            { text: "In three words I can sum up everything I've learned about life: it goes on.", author: "Robert Frost" },
+            { text: "Success is not final, failure is not fatal: it is the courage to continue that counts.", author: "Winston Churchill" },
+            { text: "The future belongs to those who believe in the beauty of their dreams.", author: "Eleanor Roosevelt" },
+            { text: "Be yourself; everyone else is already taken.", author: "Oscar Wilde" },
+            { text: "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.", author: "Albert Einstein" },
+            { text: "Be the change that you wish to see in the world.", author: "Mahatma Gandhi" },
+            { text: "The only impossible journey is the one you never begin.", author: "Tony Robbins" },
+            { text: "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.", author: "Ralph Waldo Emerson" },
+            { text: "Everything you can imagine is real.", author: "Pablo Picasso" }
+        ];
+
+        const quoteText = document.getElementById('quote');
+        const quoteAuthor = document.getElementById('author');
+        const newQuoteButton = document.getElementById('new-quote');
+
+        function getRandomQuote() {
+            return quotes[Math.floor(Math.random() * quotes.length)];
+        }
+
+        function displayQuote() {
+            const { text, author } = getRandomQuote();
+            quoteText.style.opacity = 0;
+            quoteAuthor.style.opacity = 0;
+            setTimeout(() => {
+                quoteText.textContent = text;
+                quoteAuthor.textContent = `— ${author}`;
+                quoteText.style.opacity = 1;
+                quoteAuthor.style.opacity = 1;
+            }, 300);
+        }
+
+        displayQuote();
+        newQuoteButton.addEventListener('click', displayQuote);
+    </script>
+</body>
+</html>
