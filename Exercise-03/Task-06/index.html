@@ -1,0 +1,117 @@
+<!-- 6. Display ACER and Projector Info  -->
+
+<!-- index.html  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acer Projector Display</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+                /* styles.css  */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background-color: #000;
+            font-family: 'Roboto', sans-serif;
+            overflow: hidden;
+        }
+
+        .projector-screen {
+            width: 100vw;
+            height: 100vh;
+            background-color: #000;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 40px;
+        }
+
+        .logo {
+            color: white;
+            font-size: 72px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-style: italic;
+            letter-spacing: 2px;
+            font-weight: 300;
+        }
+
+        .bottom-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            color: white;
+            position: absolute;
+            bottom: 40px;
+            left: 40px;
+            right: 40px;
+        }
+
+        .qr-section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .qr-code {
+            width: 80px;  
+            height: 80px; 
+            background-color: white;
+            padding: 5px;
+        }
+
+        .qr-text {
+            line-height: 1.6;
+            font-weight: 300;
+            font-size: 24px; 
+        }
+
+        .signal-info {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .hdmi-icon {
+            width: 40px; 
+            height: auto;
+            filter: brightness(0) invert(1);
+        }
+
+        .signal-text {
+            line-height: 1.6;
+            text-align: right;
+            font-weight: 300;
+            font-size: 24px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="projector-screen">
+        <div class="logo"><b>acer</b></div>
+        <div class="bottom-info">
+            <div class="qr-section">
+                <img src="qr-scanner.jpg" alt="QR Code" class="qr-code">
+                <span class="qr-text">X1223H<br>Projector Information</span>
+            </div>
+            <div class="signal-info">
+                <img src="hdmi.png" alt="HDMI" class="hdmi-icon">
+                <span class="signal-text">No Signal<br>HDMI IN</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

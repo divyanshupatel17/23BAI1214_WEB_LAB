@@ -1,0 +1,10 @@
+/* App.css */
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #121212, #000000);
+  padding: 20px;
+}

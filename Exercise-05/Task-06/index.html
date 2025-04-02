@@ -1,0 +1,84 @@
+<!-- 6. Random Emoji Generator -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Emoji Generator</title>
+    <style>
+        :root {
+            --primary-bg: #4A90E2;
+            --container-bg: #ffffff;
+            --text-color: #333;
+            --button-bg: #ff4081;
+            --button-text: #fff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, var(--primary-bg), #D4418E);
+            padding: 1rem;
+        }
+
+        .container {
+            background: var(--container-bg);
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 1rem;
+            color: var(--text-color);
+        }
+
+        .emoji-display {
+            font-size: 4rem;
+            margin: 1rem 0;
+        }
+
+        button {
+            padding: 10px 15px;
+            background: var(--button-bg);
+            color: var(--button-text);
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s;
+            font-size: 1rem;
+        }
+
+        button:hover {
+            background: #e60073;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Random Emoji Generator</h2>
+        <div class="emoji-display" id="emoji">😀</div>
+        <button onclick="generateEmoji()">New Emoji</button>
+    </div>
+    <script>
+        const emojis = ['😀', '😂', '😍', '🤩', '😎', '😜', '😇', '🥳', '🤔', '🙃', '😭', '😡', '🥶', '🤯', '🤗', '🤡', '👽', '👻', '🐶', '🐱', '🦄', '🌍', '🍕', '⚽', '🎸', '🚀', '❤️', '🏆'];
+        
+        function generateEmoji() {
+            const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
+            document.getElementById('emoji').textContent = randomEmoji;
+        }
+    </script>
+</body>
+</html>

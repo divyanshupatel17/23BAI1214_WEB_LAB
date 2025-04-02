@@ -1,0 +1,72 @@
+<!-- 7.	Webcam Accessing  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcam Capture</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+        body { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background: #222; color: white; }
+        video, canvas { width: 100%; max-width: 640px; border-radius: 10px; background: #000; box-shadow: 0 4px 10px rgba(255,255,255,0.2); }
+        .controls { display: flex; gap: 10px; margin-top: 10px; }
+        button { padding: 10px 15px; border: none; cursor: pointer; border-radius: 5px; color: white; transition: 0.3s; }
+        .primary { background: #4285f4; } .success { background: #34a853; } .danger { background: #ea4335; }
+        button:hover { opacity: 0.8; transform: scale(1.05); }
+        .gallery { display: grid; gap: 10px; margin-top: 10px; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+        .gallery div { position: relative; }
+        .gallery img, .gallery video { width: 100%; border-radius: 5px; box-shadow: 0 2px 8px rgba(255,255,255,0.2); }
+        .delete { position: absolute; top: 5px; right: 5px; background: rgba(0,0,0,0.6); border: none; color: white; font-size: 14px; padding: 5px; cursor: pointer; border-radius: 50%; }
+    </style>
+</head>
+<body>
+    <video id="webcam" autoplay playsinline></video>
+    <div class="controls">
+        <button id="startBtn" class="primary">Start Camera</button>
+        <button id="snapBtn" class="success" disabled>Snapshot</button>
+        <button id="recBtn" class="danger" disabled>Record</button>
+    </div>
+    <div class="gallery" id="gallery"></div>
+    <script>
+        const video = document.getElementById('webcam'), snapBtn = document.getElementById('snapBtn'), recBtn = document.getElementById('recBtn'), gallery = document.getElementById('gallery');
+        let stream, recorder, chunks = [], recording = false;
+        
+        document.getElementById('startBtn').onclick = async () => {
+            if (stream) return stream.getTracks().forEach(t => t.stop()), video.srcObject = null, stream = null, snapBtn.disabled = recBtn.disabled = true;
+            stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true });
+            video.srcObject = stream; snapBtn.disabled = recBtn.disabled = false;
+        };
+        
+        snapBtn.onclick = () => {
+            let c = document.createElement('canvas'), ctx = c.getContext('2d');
+            c.width = video.videoWidth; c.height = video.videoHeight;
+            ctx.drawImage(video, 0, 0, c.width, c.height);
+            let img = document.createElement('img');
+            img.src = c.toDataURL('image/png');
+            addToGallery(img);
+        };
+        
+        recBtn.onclick = () => {
+            if (recording) return recorder.stop(), recBtn.textContent = 'Record', recording = false;
+            chunks = [];
+            recorder = new MediaRecorder(stream);
+            recorder.ondataavailable = e => chunks.push(e.data);
+            recorder.onstop = () => {
+                let vid = document.createElement('video'); vid.src = URL.createObjectURL(new Blob(chunks, { type: 'video/webm' }));
+                vid.controls = true;
+                addToGallery(vid);
+            };
+            recorder.start(); recBtn.textContent = 'Stop'; recording = true;
+        };
+        
+        function addToGallery(media) {
+            let wrapper = document.createElement('div'), delBtn = document.createElement('button');
+            delBtn.textContent = '×'; delBtn.className = 'delete';
+            delBtn.onclick = () => wrapper.remove();
+            wrapper.appendChild(media); wrapper.appendChild(delBtn);
+            gallery.appendChild(wrapper);
+        }
+    </script>
+</body>
+</html>

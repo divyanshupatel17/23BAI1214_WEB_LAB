@@ -1,0 +1,65 @@
+.movie-card {
+  width: 250px;
+  border: 2px solid #000;
+  margin: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.movie-image {
+  width: 100%;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+.movie-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.movie-info {
+  width: 100%;
+  text-align: center;
+}
+
+.movie-title {
+  font-size: 1.5rem;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.movie-year, .movie-genre {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.movie-rating {
+  margin: 5px 0;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.star {
+  margin-left: 3px;
+  font-size: 1.5rem;
+}
+
+.star.filled {
+  color: #ffd700; /* Bright yellow for filled stars */
+}
+
+.star.empty {
+  color: #cccccc; /* Light gray for empty stars */
+} 

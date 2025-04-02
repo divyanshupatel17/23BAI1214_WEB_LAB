@@ -1,0 +1,93 @@
+My Portfolio and Project Links
+
+DIVYANSHU PATEL
+Registration Number: 23BAI1214
+Email: divyanshu.patel2023@vitstudent.ac.in
+Course: Web Programming Lab (CSE2802)
+Faculty: PROF. DR. ASHOKA RAJAN R
+Institution: VIT University
+
+PORTFOLIO LINKS:
+- Web Programming Exercise Portfolio: https://23bai1214-divyanshu-web-v0.netlify.app/
+- Personal Portfolio: https://divyanshupatel17.github.io/divyanshu-portfolio/
+
+GITHUB REPOSITORY:
+- Main Repository: https://github.com/divyanshupatel17/23BAI1214_WEB_LAB
+
+EXERCISE LINKS:
+
+Exercise 01 (HTML Basics & Layouts):
+- Task 01 - Leave Letter Application: https://23bai1214-divyanshu-exercise-1-t-1.netlify.app/
+- Task 02 - Table Layout Implementation: https://23bai1214-divyanshu-exercise-1-t-2.netlify.app/
+- Task 03 - Interactive Chessboard: https://23bai1214-divyanshu-exercise-1-t-3.netlify.app/
+- Documentation: https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/blob/main/Exercise-01/23BAI1214_Exercise_01_pdf.pdf
+
+Exercise 02 (Advanced Styling & Forms):
+- Task 01 - The Coffee Shop Website: https://23bai1214-divyanshu-exercise-2-t-1.netlify.app/
+- Task 02 - CSS Animations Showcase: https://23bai1214-divyanshu-exercise-2-t-2.netlify.app/
+- Task 03 - Job Registration Portal: https://23bai1214-divyanshu-exercise-2-t-3.netlify.app/
+- Documentation: https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/blob/main/Exercise-02/23BAI1214_Exercise_02_pdf.pdf
+
+Exercise 03 (Advanced CSS Layouts):
+- Task 01 - Stacked Panel Layout: https://23bai1214-divyanshu-exercise-3-t-1.netlify.app/
+- Task 02 - Side-by-Side Panels: https://23bai1214-divyanshu-exercise-3-t-2.netlify.app/
+- Task 03 - Modern Login Interface: https://23bai1214-divyanshu-exercise-3-t-3.netlify.app/
+- Task 04 - Horizontal Navigation: https://23bai1214-divyanshu-exercise-3-t-4.netlify.app/
+- Task 05 - Vertical Navigation: https://23bai1214-divyanshu-exercise-3-t-5.netlify.app/
+- Task 06 - Product Information Display: https://23bai1214-divyanshu-exercise-3-t-6.netlify.app/
+- Documentation: https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/blob/main/Exercise-03/23BAI1214_Exercise_03_pdf.pdf
+
+Exercise 04 (Advanced Animations):
+- Task 01 - W3Schools Animated Box: https://23bai1214-divyanshu-exercise-4-t-1.netlify.app/
+- Task 02 - Square Path Animation: https://23bai1214-divyanshu-exercise-4-t-2.netlify.app/
+- Task 03 - Dynamic Star Animation: https://23bai1214-divyanshu-exercise-4-t-3.netlify.app/
+- Task 04 - Responsive Web Design: https://23bai1214-divyanshu-exercise-4-t-4.netlify.app/
+- Documentation: https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/blob/main/Exercise-04/23BAI1214_Exercise_04_pdf.pdf
+
+Exercise 05 (JavaScript Applications):
+- Task 01 - Interactive Traffic Light: https://23bai1214-divyanshu-exercise-5-t-1.netlify.app/
+- Task 02 - Random Quote Generator: https://23bai1214-divyanshu-exercise-5-t-2.netlify.app/
+- Task 03 - To-Do List Application: https://23bai1214-divyanshu-exercise-5-t-3.netlify.app/
+- Task 04 - Interactive Shape Drawing: https://23bai1214-divyanshu-exercise-5-t-4.netlify.app/
+- Task 05 - Number Guessing Game: https://23bai1214-divyanshu-exercise-5-t-5.netlify.app/
+- Task 06 - Emoji Generator: https://23bai1214-divyanshu-exercise-5-t-6.netlify.app/
+- Documentation: https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/blob/main/Exercise-05/23BAI1214_Exercise_05_word.docx
+
+Exercise 06 (Advanced JavaScript):
+- Task 01 - Digital Clock: https://23bai1214-divyanshu-exercise-6-t-1.netlify.app/
+- Task 02 - Analog Clock: https://23bai1214-divyanshu-exercise-6-t-2.netlify.app/
+- Task 03 - Flashlight Text Reveal: https://23bai1214-divyanshu-exercise-6-t-3.netlify.app/
+- Task 04 - Minion Eye: https://23bai1214-divyanshu-exercise-6-t-4.netlify.app/
+- Task 05 - Vertical Image Slider: https://23bai1214-divyanshu-exercise-6-t-5.netlify.app/
+- Task 06 - Snake Game: https://23bai1214-divyanshu-exercise-6-t-6.netlify.app/
+- Task 07 - Webcam Accessing: https://23bai1214-divyanshu-exercise-6-t-7.netlify.app/
+- Task 08 - Mobile Flashlight: https://23bai1214-divyanshu-exercise-6-t-8.netlify.app/
+- Documentation: https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/blob/main/Exercise-06/23BAI1214_Exercise_06_pdf.pdf
+
+Exercise 07 (Frameworks & Libraries):
+- Task 01 - React Card Component: https://23bai1214-divyanshu-exercise-7-t-1.netlify.app/
+- Documentation: https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/blob/main/Exercise-07/23BAI1214_Exercise_07_pdf.pdf
+
+Exercise 08 (Responsive Design & PWA):
+- Task 01 - React Data Table: https://23bai1214-divyanshu-exercise-8-t-1.netlify.app/
+- Documentation: https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/blob/main/Exercise-08/23BAI1214_Exercise_08_pdf.pdf
+
+Exercise 09 (React Profiles):
+- Task 01 - React Profile Cards: https://23bai1214-divyanshu-exercise-9-t-1.netlify.app/
+- Documentation: https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/blob/main/Exercise-09/23BAI1214_Exercise_09_pdf.pdf
+
+Exercise 10 (React Movie Cards):
+- Task 01 - Movie Collection App: https://23bai1214-divyanshu-exercise-10-t-1.netlify.app/
+- Documentation: https://github.com/divyanshupatel17/23BAI1214_WEB_LAB/blob/main/Exercise-10/23BAI1214_Exercise_10_pdf.pdf
+
+PROJECT LINKS:
+
+JavaScript Projects:
+- Weather Dashboard: https://weather-dashboard-divyanshu.netlify.app
+- GitHub Statistics Viewer: https://github-stats-viewer-divyanshu.netlify.app
+- NEUMORPHISM UI Generator: https://make-your-own-neumorphism-divyanshu.netlify.app/
+- VIT Timeline: https://vit-timeline-divyanshu.netlify.app
+
+React Projects:
+- E-Shop: https://e-shop-divyanshu.netlify.app
+- Quiz App: https://quiz-app-divyanshu.netlify.app

@@ -1,0 +1,58 @@
+<!-- 8.	Mobile Flashlight  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashlight</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+        body { display: flex; align-items: center; justify-content: center; height: 100vh; background: #121212; color: white; }
+        .container { text-align: center; padding: 30px; border-radius: 12px; background: rgba(255, 255, 255, 0.1); box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); backdrop-filter: blur(10px); width: 90%; max-width: 350px; }
+        h1 { margin-bottom: 10px; letter-spacing: 1px; }
+        #toggleButton { width: 100%; padding: 15px; font-size: 18px; font-weight: bold; cursor: pointer; border-radius: 50px; border: none; transition: 0.3s; background: linear-gradient(45deg, #ff3c3c, #ff8c00); color: white; box-shadow: 0 0 15px rgba(255, 60, 60, 0.5); }
+        #toggleButton:active { transform: scale(0.95); }
+        #toggleButton.on { background: linear-gradient(45deg, #00ff7f, #00c853); box-shadow: 0 0 20px rgba(0, 255, 127, 0.7); }
+        #status { margin-top: 15px; font-size: 16px; text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
+        .error { margin-top: 10px; font-size: 14px; color: #ff5757; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Flashlight</h1>
+        <button id="toggleButton">Turn On</button>
+        <div id="status">Status: OFF</div>
+        <div id="error" class="error"></div>
+        <video id="video" autoplay playsinline style="display:none;"></video>
+    </div>
+    <script>
+        const btn = document.getElementById('toggleButton'), statusText = document.getElementById('status'), errorText = document.getElementById('error'), video = document.getElementById('video');
+        let stream, track, flashlightOn = false;
+        btn.onclick = async () => {
+            try {
+                if (!flashlightOn) {
+                    stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment', advanced: [{ torch: true }] } });
+                    video.srcObject = stream;
+                    track = stream.getVideoTracks()[0];
+                    await track.applyConstraints({ advanced: [{ torch: true }] });
+                    flashlightOn = true;
+                    updateUI();
+                } else {
+                    track.stop();
+                    flashlightOn = false;
+                    updateUI();
+                }
+            } catch (err) {
+                errorText.textContent = 'Flashlight not supported';
+            }
+        };
+        function updateUI() {
+            btn.textContent = flashlightOn ? 'Turn Off' : 'Turn On';
+            btn.classList.toggle('on', flashlightOn);
+            statusText.textContent = `Status: ${flashlightOn ? 'ON' : 'OFF'}`;
+        }
+    </script>
+</body>
+</html>

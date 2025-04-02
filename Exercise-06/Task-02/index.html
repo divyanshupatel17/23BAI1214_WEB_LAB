@@ -1,0 +1,163 @@
+<!-- 2.	Analog Clock -->
+ 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Analog Clock</title>
+
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                margin: 0;
+                background: linear-gradient(135deg, #2c3e50, #34495e);
+                font-family: 'Arial', sans-serif;
+            }
+            .clock {
+                width: 350px;
+                height: 350px;
+                border: 8px solid rgba(255, 255, 255, 0.1);
+                border-radius: 50%;
+                background: url('bg.png') no-repeat center center/cover;
+                position: relative;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            }
+            .clock::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: radial-gradient(circle, rgba(40, 40, 40, 0.7) 30%, rgba(20, 20, 20, 0.8) 90%);
+                border-radius: 50%;
+            }
+            .number {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                font-size: 1.6rem;
+                font-weight: bold;
+                color: white;
+                padding: 18px;
+                box-sizing: border-box;
+            }
+            .number div {
+                position: relative;
+                display: inline-block;
+                background: rgba(255, 255, 255, 0.1);
+                padding: 4px;
+                border-radius: 50%;
+                width: 32px;
+                height: 32px;
+                line-height: 24px;
+                text-align: center;
+                text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+            }
+            .hand {
+                position: absolute;
+                bottom: 50%;
+                left: 50%;
+                transform-origin: bottom;
+                border-radius: 8px;
+                z-index: 10;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            }
+            .hour {
+                width: 8px;
+                height: 28%;
+                background: #fff;
+                margin-left: -4px;
+            }
+            .minute {
+                width: 6px;
+                height: 38%;
+                background: #eee;
+                margin-left: -3px;
+            }
+            .second {
+                width: 3px;
+                height: 45%;
+                background: #e74c3c;
+                margin-left: -1.5px;
+            }
+            .center {
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                background: #e74c3c;
+                border: 5px solid #fff;
+                border-radius: 50%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 20;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            }
+            .brand {
+                position: absolute;
+                bottom: 35%;
+                width: 100%;
+                text-align: center;
+                color: rgba(255, 255, 255, 0.6);
+                font-size: 14px;
+                font-style: italic;
+                z-index: 5;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="clock">
+            <div class="hand hour"></div>
+            <div class="hand minute"></div>
+            <div class="hand second"></div>
+            <div class="center"></div>
+            <div class="brand">Divyanshu</div>
+        </div>
+
+        <script>
+            function setupClock() {
+                const numbers = [12, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+                const clock = document.querySelector('.clock');
+                
+                numbers.forEach((number, index) => {
+                    const element = document.createElement('div');
+                    element.className = 'number';
+                    element.style.transform = `rotate(${index * 30}deg)`;
+                    
+                    const text = document.createElement('div');
+                    text.style.transform = `rotate(-${index * 30}deg)`;
+                    text.textContent = number;
+                    
+                    element.appendChild(text);
+                    clock.appendChild(element);
+                });
+            }
+
+            function updateClock() {
+                const now = new Date();
+                const seconds = now.getSeconds();
+                const minutes = now.getMinutes();
+                const hours = now.getHours() % 12;
+
+                const secondDeg = (seconds / 60) * 360;
+                const minuteDeg = ((minutes + seconds / 60) / 60) * 360;
+                const hourDeg = ((hours + minutes / 60) / 12) * 360;
+
+                document.querySelector('.second').style.transform = `translateX(-50%) rotate(${secondDeg}deg)`;
+                document.querySelector('.minute').style.transform = `translateX(-50%) rotate(${minuteDeg}deg)`;
+                document.querySelector('.hour').style.transform = `translateX(-50%) rotate(${hourDeg}deg)`;
+            }
+
+            setupClock();
+            setInterval(updateClock, 1000);
+            updateClock();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,99 @@
+<!-- 4. Navigation Bar - Horizontal -->
+
+<!-- index.html  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* styles.css  */
+        .navbar {
+            background-color: #333;
+            padding: 15px 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .nav-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-start;
+            gap: 20px;
+            padding-left: 20px;
+        }
+
+        .nav-list li a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 10px 15px;
+        }
+
+        .active {
+            color: #00ffff !important;
+        }
+
+        /* Dropdown styles */
+        .dropdown {
+            position: relative;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #444;
+            min-width: 180px;
+            padding: 10px 0;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .dropdown-content li {
+            padding: 5px 0;
+        }
+
+        .dropdown-content li a {
+            color: white;
+            padding: 8px 20px;
+            display: block;
+            font-size: 18px;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content li a:hover {
+            background-color: #555;
+        }
+
+        /* Hover effects */
+        .nav-list li a:hover {
+            color: #00ffff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li class="dropdown">
+                <a href="#services" class="active">Services</a>
+                <ul class="dropdown-content">
+                    <li><a href="#web-design">Web Design</a></li>
+                    <li><a href="#seo">SEO</a></li>
+                    <li><a href="#marketing">Marketing</a></li>
+                </ul>
+            </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

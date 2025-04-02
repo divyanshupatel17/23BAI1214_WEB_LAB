@@ -1,0 +1,123 @@
+<!-- 4. Drawing Shapes -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Shape Drawer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #FF9A8B, #FF6A88, #FF99AC);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1 {
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .options {
+            margin-bottom: 15px;
+        }
+
+        button {
+            margin: 5px;
+            padding: 12px 20px;
+            font-size: 16px;
+            border: none;
+            outline: none;
+            background: #4A90E2;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background: #357ABD;
+        }
+
+        canvas {
+            background-color: white;
+            border: 3px solid black;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Draw Random Shapes on Canvas</h1>
+    <div class="options">
+        <button onclick="drawRectangle()">Rectangle</button>
+        <button onclick="drawCircle()">Circle</button>
+        <button onclick="drawTriangle()">Triangle</button>
+        <button onclick="clearCanvas()">Clear</button>
+    </div>
+    <canvas id="myCanvas" width="500" height="500"></canvas>
+
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        function getRandomColor() {
+            return `hsl(${Math.random() * 360}, 70%, 60%)`;
+        }
+
+        function drawRectangle() {
+            const x = getRandomInt(0, canvas.width - 150);
+            const y = getRandomInt(0, canvas.height - 100);
+            ctx.fillStyle = getRandomColor();
+            ctx.fillRect(x, y, 150, 100);
+        }
+
+        function drawCircle() {
+            const radius = 50;
+            const x = getRandomInt(radius, canvas.width - radius);
+            const y = getRandomInt(radius, canvas.height - radius);
+            ctx.fillStyle = getRandomColor();
+            ctx.beginPath();
+            ctx.arc(x, y, radius, 0, Math.PI * 2);
+            ctx.fill();
+        }
+
+        function drawTriangle() {
+            const x1 = getRandomInt(50, canvas.width - 50);
+            const y1 = getRandomInt(50, canvas.height - 50);
+            const x2 = x1 - 50;
+            const y2 = y1 + 100;
+            const x3 = x1 + 50;
+            const y3 = y1 + 100;
+            ctx.fillStyle = getRandomColor();
+            ctx.beginPath();
+            ctx.moveTo(x1, y1);
+            ctx.lineTo(x2, y2);
+            ctx.lineTo(x3, y3);
+            ctx.closePath();
+            ctx.fill();
+        }
+
+        function clearCanvas() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+    </script>
+
+</body>
+</html>

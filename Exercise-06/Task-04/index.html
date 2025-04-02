@@ -1,0 +1,120 @@
+<!-- 4.	Minion Eye -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minion Eye Tracker</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #ffd900, #ffab00);
+            overflow: hidden;
+            /* cursor: none; */
+        }
+        .minion-face {
+            position: relative;
+            width: 500px;
+            height: 600px;
+            background: #ffd900;
+            border-radius: 50% / 60% 60% 40% 40%;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .goggles-strap {
+            position: absolute;
+            top: 180px;
+            width: 550px;
+            height: 40px;
+            background: #333;
+        }
+        .goggles-container {
+            position: absolute;
+            top: 160px;
+            width: 400px;
+            height: 140px;
+            background: #777;
+            border-radius: 70px;
+            border: 8px solid #333;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .eye-container {
+            position: relative;
+            width: 120px;
+            height: 120px;
+            background: #fff;
+            border-radius: 50%;
+            border: 5px solid #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .eye {
+            position: relative;
+            width: 60px;
+            height: 60px;
+            background: radial-gradient(circle at 40% 40%, #8b5a2b 0%, #4b2c14 80%);
+            border-radius: 50%;
+        }
+        .pupil {
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            background: #000;
+            border-radius: 50%;
+            top: 17px;
+            left: 17px;
+        }
+        .custom-cursor {
+            position: fixed;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            border: 3px solid #333;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+        }
+    </style>
+</head>
+<body>
+    <div class="custom-cursor" id="customCursor"></div>
+    <div class="minion-face">
+        <div class="goggles-strap"></div>
+        <div class="goggles-container">
+            <div class="eye-container">
+                <div class="eye" id="leftEye">
+                    <div class="pupil"></div>
+                </div>
+            </div>
+            <div class="eye-container">
+                <div class="eye" id="rightEye">
+                    <div class="pupil"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('mousemove', function(e) {
+            document.getElementById('customCursor').style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+            moveEyes(e.clientX, e.clientY);
+        });
+        function moveEyes(x, y) {
+            document.querySelectorAll('.eye').forEach(eye => {
+                const rect = eye.getBoundingClientRect(), dx = x - (rect.left + rect.width / 2), dy = y - (rect.top + rect.height / 2), maxMove = 18;
+                eye.style.transform = `translate(${Math.min(dx / 6, maxMove)}px, ${Math.min(dy / 6, maxMove)}px)`;
+            });
+        }
+    </script>
+</body>
+</html>

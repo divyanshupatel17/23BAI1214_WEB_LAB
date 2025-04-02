@@ -1,0 +1,44 @@
+<!-- 1. Stacked Panel: A CSS Layout Exploration -->
+
+<!-- index.html  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacked Panel: A CSS Layout Exploration</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* styles.css */
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .stacked-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 10px; 
+        }
+
+        .panel {
+            width: 100px;
+            height: 150px;
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="stacked-panel">
+        <div class="panel"></div>
+        <div class="panel"></div>
+    </div>
+</body>
+</html>

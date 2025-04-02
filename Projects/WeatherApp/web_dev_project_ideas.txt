@@ -1,0 +1,5 @@
+@https://openweathermap.org/  
+e61e38d5351d8fd3cc3b28f4c8b562cb 
+
+@https://www.weatherapi.com/my/ 
+d123e9f4d6e741e4942115923253003

@@ -1,0 +1,119 @@
+<!-- 4. Structured & Responsive Web Design  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Question 4</title>
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    color: aliceblue;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 20vh 10vh 30vh 30vh 10vh;
+    grid-template-areas:
+        "h h h h h"
+        "n n n n n"
+        "m m m m sb"
+        "a a a a sb"
+        "f f f f f";
+}
+
+.header, .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    border: 5px solid white;
+}
+
+.header {
+    background-color: #ff6347;
+    grid-area: h;
+}
+
+.footer {
+    background-color: #34495e;
+    grid-area: f;
+}
+
+.navbar {
+    background-color: #3498db;
+    grid-area: n;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-items {
+    gap: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #f39c12;
+    grid-area: sb;
+    border: 5px solid white;
+}
+
+.main, .article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 5px solid white;
+    padding: 15px;
+}
+
+.main {
+    background-color: #2ecc71;
+    grid-area: m;
+}
+
+.article {
+    background-color: #9b59b6;
+    grid-area: a;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text {
+    text-align: left;
+}
+</style>
+</head>
+<body>
+    <div class="header">Web Programming</div>
+    <div class="navbar">
+        <div class="nav-items">Home</div>
+        <div class="nav-items">About</div>
+        <div class="nav-items">Contact</div>
+    </div>
+    <div class="sidebar">
+        <div class="heading">Sidebar</div>
+        <div class="text">This is the sidebar, containing related links or ads.</div>
+    </div>
+    <div class="main">
+        <div class="heading">Main Section</div>
+        <div class="text">This is the main content of the page.</div>
+    </div>
+    <div class="article">
+        <div class="heading">Article</div>
+        <div class="text">This is a standalone article related to the main content.</div>
+    </div>
+    <div class="footer">&copy; 2025 Your Company. All rights reserved.</div>
+</body>
+</html>

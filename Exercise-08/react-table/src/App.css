@@ -1,0 +1,76 @@
+/* App.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f7fa;
+}
+
+.table-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+.gradient-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.gradient-table th {
+  background-color: #333;
+  color: white;
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: bold;
+  border: 1px solid #ddd;
+}
+
+.gradient-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.gradient-table tbody tr {
+  background-color: #fff;
+}
+
+.gradient-table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+  .table-container {
+    width: 95%;
+    padding: 1rem;
+  }
+  
+  .gradient-table th, 
+  .gradient-table td {
+    padding: 8px 10px;
+  }
+}

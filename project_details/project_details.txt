@@ -1,0 +1,46 @@
+# Project Portfolio - Divyanshu Patel
+
+## JavaScript Projects
+
+### 1. Weather Dashboard
+**Live Demo**: [View Live](https://weather-dashboard-divyanshu.netlify.app) *(link to be updated)*
+**Description**: A comprehensive weather application featuring a sleek, dark-themed UI built from scratch. The dashboard displays current weather conditions with temperature, humidity, and pressure readings, an interactive 7-day forecast with detailed high/low temperatures, hourly forecast visualization for the current day, and an air conditions panel showing real feel, wind speed, chance of rain, and UV index. The application employs responsive design principles ensuring optimal viewing on all devices including desktop, tablet, and mobile in both portrait and landscape orientations. Data is fetched dynamically from OpenWeatherMap API with WeatherAPI.com as a fallback system for robust performance.
+**Technologies**: HTML5, CSS3, JavaScript (ES6+), OpenWeatherMap API, WeatherAPI.com, Font Awesome, Google Fonts (Poppins)
+
+### 2. GitHub Statistics Viewer
+**Live Demo**: [View Live](https://github-stats-viewer-divyanshu.netlify.app) *(link to be updated)*
+**Description**: A feature-rich GitHub analytics tool that provides comprehensive user statistics with an elegant dark-themed interface. The application enables users to view detailed GitHub metrics including repository count, followers, following, and language distribution visualized through interactive charts. Users can explore commit activity on popular repositories, total stars received, and contribution patterns. A standout feature is the ability to compare up to 3 different GitHub profiles side-by-side with visual representations of their statistics. The responsive design adapts seamlessly to various screen sizes, and the app intelligently manages API rate limits with clear status notifications.
+**Technologies**: HTML5, CSS3, JavaScript (ES6+), GitHub REST API, Chart.js, CSS Grid, Flexbox, Custom CSS Variables
+
+### 3. NEUMORPHISM UI Generator
+**Live Demo**: [View Live](https://make-your-own-neumorphism-divyanshu.netlify.app/)
+**Description**: An innovative design tool that empowers developers and designers to create customized neumorphic UI elements with real-time preview capabilities. The application features an intuitive interface with a sophisticated color picker that supports hex code input, adjustable parameters for size, border radius, shadow distance, and intensity, and four distinct shape options (flat, concave, convex, and pressed). Users can control light direction for precise shadow positioning, experiment with custom shadow colors, and select from predefined color combinations for quick styling. The tool generates clean CSS code that can be copied to clipboard with a single click. Built with vanilla JavaScript without any external libraries, the application delivers smooth animations and transitions while maintaining excellent performance.
+**Technologies**: HTML5, CSS3, JavaScript (ES6+), CSS Custom Properties, DOM Manipulation
+
+### 4. VIT Timeline
+**Live Demo**: [View Live](https://vit-timeline-divyanshu.netlify.app) *(link to be updated)*
+**Description**: An interactive historical timeline showcasing the evolution and significant milestones of VIT Chennai. The application presents a chronological journey through the institution's development, featuring important events, achievements, and growth markers arranged in an engaging visual format. The timeline includes smooth scrolling navigation, animated entry effects for each event, detailed descriptions with supporting media, and a responsive design that adapts to different screen sizes. The project combines modern frontend techniques to create an immersive storytelling experience that highlights the academic institution's legacy and progress over the years.
+**Technologies**: HTML5, CSS3, JavaScript, CSS Animations, Intersection Observer API, Responsive Design
+
+## React JS Projects
+
+### 1. E-Shop
+**Live Demo**: [View Live](https://e-shop-divyanshu.netlify.app) *(link to be updated)*
+**Description**: A full-featured e-commerce application built with React 19 and the latest web technologies. The platform provides a comprehensive shopping experience with categorized product listings, detailed product pages with specifications and reviews, an intuitive shopping cart with quantity adjustment, a streamlined checkout process, and user authentication with profile management. The application implements client-side routing for seamless navigation between pages, state management for shopping cart persistence, responsive design for all device sizes, and optimized performance with code splitting. The modern UI incorporates accessibility features and follows best practices for e-commerce user experience.
+**Technologies**: React 19, React Router DOM v7, Vite, Context API for state management, CSS3 with CSS modules, ESLint for code quality
+
+### 2. Quiz App
+**Live Demo**: [View Live](https://quiz-app-divyanshu.netlify.app) *(link to be updated)*
+**Description**: An engaging and interactive quiz application that allows users to test their knowledge across various subjects and difficulty levels. The React-based platform features a clean, intuitive interface with multiple-choice questions, timed quiz sessions with progress indicators, immediate feedback on answers with explanations, score tracking with performance statistics, and the ability to save quiz results. The application implements custom hooks for quiz logic, React Router for navigation between question sets, and responsive design that works seamlessly across devices. The modular component architecture ensures maintainability and extensibility for adding new question categories or features.
+**Technologies**: React, Vite build system, Custom React Hooks, React Router, CSS3 with component-scoped styling, Local Storage for saving progress
+
+## Developer Information
+
+**Name**: Divyanshu Patel  
+**About**: A passionate Web Developer and Digital Concept Artist, currently pursuing B.Tech in Computer Science at VIT Chennai. Skilled in frontend development, database management, and networking.  
+
+**Contact Details**:  
+- **Email**: [divyanshu.patel2023@vitstudent.ac.in](mailto:divyanshu.patel2023@vitstudent.ac.in)  
+- **GitHub**: [github.com/divyanshupatel17](https://github.com/divyanshupatel17)  
+- **LinkedIn**: [linkedin.com/in/patel-divyanshu](https://www.linkedin.com/in/patel-divyanshu)  
+- **Instagram**: [@patel_divyanshu_](https://instagram.com/patel_divyanshu_) 
